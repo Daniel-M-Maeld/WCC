@@ -186,7 +186,7 @@ class App:
                 if 25 <= self.temp <= 35 and self.hum >= 70:
                     outfit_file = "25-35 70.jfif"
 
-                elif self.temp >= 30:
+                elif self.temp >= 25:
                     outfit_file = "+30 50.jfif"
                 
                 elif 18 <= self.temp < 25:
@@ -207,7 +207,7 @@ class App:
                 if 25 <= self.temp <= 35 and self.hum >= 70:
                     outfit_file = "25-35 70 д.jfif"
 
-                elif self.temp >= 30:
+                elif self.temp >= 25:
                     outfit_file = "+30 50 д.jfif"
                 
                 elif 18 <= self.temp < 25:
